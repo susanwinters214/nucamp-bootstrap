@@ -29,7 +29,11 @@
                 </div>
                 <!--Add Reserve Button-->
                 <div class="col-12 mt-4 col-sm-2">
-                    <a href="#reserveForm" class="btn btn-info">Reserve Campsite</a>
+                    <a href="#reserveForm" class="btn btn-info" 
+                    data-toggle="tooltip" 
+                    data-html="true" 
+                    data-placement="bottom"
+                    title="Or call us at <strong>1-206-555-1234</strong>">Reserve Campsite</a>
                 </div>
             </div>
         </div>
@@ -199,6 +203,15 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!-- Added JQuery for Popup Tooltips (uses custom data attributes) -->
+<script>
+    $(function(){
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+
+</script>
+
 </body>
 
 </html>
