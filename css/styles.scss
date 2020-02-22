@@ -6,6 +6,9 @@ $color-dark:#60106b;
 $color-black-transparent:rgba(0,0,0,0.5);
 $body-font:"Open Sans", sans-serif;
 $header-font:"Lobster", cursive;
+/* VARIABLES */
+$color-teal: #17A2B8;
+
 
 /* Create Variables at top of page - then replace definitions down inside the CSS file
    Next, NEST your styles using the curly brackets
@@ -76,3 +79,15 @@ footer {
     right: 0;
     bottom: 0;
 }
+
+
+
+#registrationModal {
+    .modal-header{background-color:$color-teal; color:white;}
+}
+
+#loginModal {
+    .modal-header{background-color:$color-mid; color:white;}
+}
+
+

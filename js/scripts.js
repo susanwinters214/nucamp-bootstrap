@@ -13,3 +13,16 @@ $(function() {
     });
 
 });
+
+
+function OpenReserve()
+{
+    $('#registrationModal').modal('show')
+}
+
+
+
+function OpenLogin()
+{
+    $('#loginModal').modal('show')
+}

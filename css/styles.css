@@ -1,3 +1,4 @@
+/* VARIABLES */
 /* Create Variables at top of page - then replace definitions down inside the CSS file
    Next, NEST your styles using the curly brackets
    Next, COMPILE your SCSS file to CSS 
@@ -56,3 +57,11 @@ footer {
   position: absolute;
   right: 0;
   bottom: 0; }
+
+#registrationModal .modal-header {
+  background-color: #17A2B8;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #901cad;
+  color: white; }
